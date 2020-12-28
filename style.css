@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+#bpbox {
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+  padding: 1%;
+}
+.blackpink {
+  width: 100%;
+}
+.hr {
+  width: 100%;
+  border-bottom: 7px solid #ffb3c6;
+  margin-bottom: 5%;
+}
+#profile {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 90%;
+}
+
+.profileimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid pink;
+  background: pink;
+  width: 75%;
+
+}
+.profilename {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  padding-top: 10%;
+}

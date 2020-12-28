@@ -1,0 +1,48 @@
+
+body {
+  background-color: black;
+  margin: 0;
+}
+#bpbox {
+  margin-left: auto;
+  margin-right: auto;
+  width:15%;
+  padding: 1%;
+}
+.blackpink {
+  width: 100%;
+}
+.hr {
+  width: 100%;
+  border-bottom: 7px solid #ffb3c6;
+  margin-bottom: 3%;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.profileimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px solid pink;
+  background: pink;
+  width: 65%;
+}
+.profilename {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  padding-top: 5%;
+}
+table {
+  color: pink;
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+}
+tr {
+  font-size: 25px;
+  font-weight: bold;
+}
