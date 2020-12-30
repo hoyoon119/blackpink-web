@@ -47,3 +47,43 @@ tr {
   font-size: 25px;
   font-weight: bold;
 }
+@media(max-width:800px) {
+  .hr {
+    width: 100%;
+    border-bottom: 5px solid #ffb3c6;
+    margin-bottom: 0;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+  .profileimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    border: 5px solid pink;
+    background: pink;
+    width: 35%;
+  }
+  .profilename {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 3%;
+  }
+  table {
+    color: pink;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  tr {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

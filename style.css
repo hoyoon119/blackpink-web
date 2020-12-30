@@ -14,7 +14,7 @@ body {
 }
 .hr {
   width: 100%;
-  border-bottom: 7px solid #ffb3c6;
+  border-bottom: 5px solid #ffb3c6;
   margin-bottom: 5%;
 }
 #profile {
@@ -22,6 +22,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 90%;
 }
 
@@ -40,4 +42,32 @@ body {
   margin-right: auto;
   width: 65%;
   padding-top: 10%;
+}
+@media(max-width:800px) {
+  .hr {
+    width: 100%;
+    border-bottom: 5px solid #ffb3c6;
+    margin-bottom: 0;
+  }
+  #profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .profileimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border: 5px solid pink;
+    background: pink;
+    width: 65%;
+  }
+  .profilename {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-top: 5%;
+  }
 }
